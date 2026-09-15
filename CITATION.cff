@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software or methodology, please cite it as below."
+type: software
+title: "QACLDN: Quantum Actor-Critic for Drone Navigation — A Hybrid Quantum-Classical Reinforcement Learning Pipeline with Empirical Real-Data Calibration"
+version: 1.0.0
+date-released: 2026-09-14
+license: MIT
+repository-code: "<this-repository-url>"
+abstract: >
+  A from-scratch, dependency-free implementation and empirical evaluation of
+  QACLDN (Quantum Actor-Critic for Drone Navigation): a hybrid
+  quantum-classical policy-gradient method for UAV obstacle-avoidance
+  navigation. Includes a batched NumPy statevector VQC simulator with an
+  exact parameter-shift gradient rule (verified to 1e-11 against finite
+  differences), a 12-state RK4-integrated rigid-body quadrotor dynamics
+  engine, and empirical calibration against three real-world data sources
+  (UAV telemetry, ICMCIS multi-sensor drone-detection radar/RF logs, and the
+  gym-pybullet-drones cf2x physical parameter specification).
+keywords:
+  - quantum machine learning
+  - variational quantum circuits
+  - reinforcement learning
+  - quantum reinforcement learning
+  - UAV navigation
+  - drone obstacle avoidance
+  - actor-critic
+  - parameter-shift rule
+  - hybrid quantum-classical algorithms
+references:
+  - type: conference-paper
+    title: "Learning to Fly — a Gym Environment with PyBullet Physics for Reinforcement Learning of Multi-agent Quadcopter Control"
+    authors:
+      - family-names: Panerati
+        given-names: Jacopo
+      - family-names: Zheng
+        given-names: Hehui
+      - family-names: Zhou
+        given-names: SiQi
+      - family-names: Xu
+        given-names: James
+      - family-names: Prorok
+        given-names: Amanda
+      - family-names: Schoellig
+        given-names: Angela P.
+    year: 2021
+    collection-title: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
