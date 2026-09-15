@@ -1,0 +1,23 @@
+# Core numerical stack (the entire quantum-circuit simulator, RK4 dynamics
+# engine, and every neural network in this repo are implemented on top of
+# just these four packages — no Qiskit/PennyLane/PyTorch dependency).
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+
+# Notebook tooling (script <-> notebook conversion, execution, kernel)
+jupyter>=1.0
+jupytext>=1.15
+nbformat>=5.9
+nbconvert>=7.10
+ipykernel>=6.25
+jupyter_client>=8.3
+
+# Testing
+pytest>=7.4
+
+# Optional: only needed if you regenerate the manuscript PDFs locally
+# (requires a TeX distribution such as TeX Live with xelatex + pandoc on PATH;
+#  not a pip-installable dependency, listed here for documentation purposes)
+# pdf2image>=1.17
